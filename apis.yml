@@ -1,4 +1,16 @@
 aid: viewlogic-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/viewlogic-systems.png
 name: Viewlogic Systems
 description: Viewlogic Systems is a company surfaced as a portfolio company of battery-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -21,3 +33,14 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'No live company or API surface. viewlogic.com resolves (13.248.169.48 / 76.223.54.146)
+    but 307-redirects to an Afternic domain-for-sale parking page; viewlogic-systems.com
+    does not resolve. Viewlogic Systems is a defunct EDA (electronic design automation)
+    vendor with no public developer portal, docs, OpenAPI, or registry SDKs. No artifacts
+    generated. Probes performed: DNS (dig), HTTP (WebFetch). WebSearch budget was exhausted
+    this session.'
